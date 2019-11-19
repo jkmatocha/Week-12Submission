@@ -34,6 +34,17 @@ def UpdateString(string1, string2, int1):
             
     print(newstring)
 
+#   FindWordCount
+#   John Matocha
+#   ​CSCI 102 – Section A
+#   Week 12 - Part A
+def FindWordCount(list1, string1):
+    count = 0
+    for i in range(len(list1)):
+        if string1 == list1[i]:
+            count +=1
+    return count
+
 #   ScoreFinder
 #   John Matocha
 #   ​CSCI 102 – Section A
