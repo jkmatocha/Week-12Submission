@@ -60,3 +60,12 @@ def Union(list1, list2):
     newlist = []
     newlist = list(set(list1) | set(list2))
     return newlist
+
+#   Intersection
+#   John Matocha
+#   ​CSCI 102 – Section A
+#   Week 12 - Part A
+def Intersection(list1, list2):
+    newlist2 = []
+    newlist2 = list(set(list1) & set(list2))             
+    return newlist2
