@@ -51,3 +51,12 @@ def ScoreFinder(play, score, name):
         print('OUTPUT', play[index], 'got a score of', score[index])
     else:
         print('OUTPUT player not found')
+
+#   Union
+#   John Matocha
+#   ​CSCI 102 – Section A
+#   Week 12 - Part A
+def Union(list1, list2):
+    newlist = []
+    newlist = list(set(list1) | set(list2))
+    return newlist
