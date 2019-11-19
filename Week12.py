@@ -69,3 +69,12 @@ def Intersection(list1, list2):
     newlist2 = []
     newlist2 = list(set(list1) & set(list2))             
     return newlist2
+
+#   NotIn
+#   John Matocha
+#   ​CSCI 102 – Section A
+#   Week 12 - Part A
+def NotIn(list1, list2):
+    newlist3 = list(set(list1) - set(list2))
+    return newlist3
+#print("OUTPUT", NotIn(players2, players))
